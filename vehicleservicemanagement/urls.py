@@ -58,7 +58,7 @@ urlpatterns = [
     path('update-salary/<int:pk>', views.update_salary_view,name='update-salary'),
 
     path('admin-mechanic-attendance', views.admin_mechanic_attendance_view,name='admin-mechanic-attendance'),
-    path('admin-take-attendance', views.admin_take_attendance_view,name='admin-take-attendance'),
+    # path('admin-take-attendance', views.admin_take_attendance_view,name='admin-take-attendance'),
     path('admin-view-attendance', views.admin_view_attendance_view,name='admin-view-attendance'),
     path('admin-feedback', views.admin_feedback_view,name='admin-feedback'),
 

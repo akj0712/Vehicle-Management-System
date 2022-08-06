@@ -70,13 +70,13 @@ class FeedbackForm(forms.ModelForm):
         }
 
 #for Attendance related form
-presence_choices=(('Present','Present'),('Absent','Absent'))
-class AttendanceForm(forms.Form):
-    present_status=forms.ChoiceField( choices=presence_choices)
-    date=forms.DateField()
+# presence_choices=(('Present','Present'),('Absent','Absent'))
+# class AttendanceForm(forms.Form):
+#     present_status=forms.ChoiceField( choices=presence_choices)
+#     date=forms.DateField()
 
-class AskDateForm(forms.Form):
-    date=forms.DateField()
+# class AskDateForm(forms.Form):
+#     date=forms.DateField()
 
 
 #for contact us page

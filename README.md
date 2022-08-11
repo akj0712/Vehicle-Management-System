@@ -20,7 +20,6 @@
 - customer can delete request (Enquiry) if customer change their mind or not approved by admin (ONLY PENDING REQUEST CAN BE DELETED )
 - customer can check status of Request(Enquiry) that is Pending, Approved, Repairing, Repairing Done, Released
 - customer can check invoice details or repaired vehicles
-- customer can send feedback to admin
 - customer can see/edit their profile
 ---
 ## Mechanic
@@ -30,7 +29,6 @@
 - mechanic can see how many work (vehicles to repair) is assigned to me
 - mechanic can change status of service ('Repairing', 'Repairing Done') according to work progress
 - mechanic can see salary and how many vehicles he/she have repaired so far
-- mechanic can send feedback to admin
 - mechanic can see/edit their profile
 ---
 ### Admin
@@ -49,7 +47,6 @@ py manage.py createsuperuser
 - Admin can also make request for service (suppose customer directly reached to service center/office)
 - Admin can approve request for service made by customer and assign to mechanic for repairing and will provide cost according to problem description
 - Admin can see all service cost of request (both approved and pending)
-- Admin can see feedbacks sent by customer/mechanic
 ---
 ### Other Features
 - we can change theme of website day(white) and night(black)
@@ -74,23 +71,3 @@ py manage.py runserver
 ```
 http://127.0.0.1:8000/
 ```
-
-## CHANGES REQUIRED FOR CONTACT US PAGE
-- In settins.py file, You have to give your email and password
-```
-EMAIL_HOST_USER = 'youremail@gmail.com'
-EMAIL_HOST_PASSWORD = 'your email password'
-EMAIL_RECEIVING_USER = 'youremail@gmail.com'
-```
-- Login to gmail through host email id in your browser and open following link and turn it ON
-```
-https://myaccount.google.com/lesssecureapps
-```
-## Drawbacks/LoopHoles
-- When customer/mechanic edit their profile then he/she must login again because their username/password is updated in db.
-## Credits
-- Tran Anh Tuat ( Admin Dashboard UI )
-## Disclaimer
-This project is developed for demo purpose and it's not supposed to be used in real application.
-
-

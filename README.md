@@ -12,6 +12,9 @@
 ### Customer Dashboard
 ![dashboard snap](https://github.com/sumitkumar1503/vehicleservicemanagement/blob/master/static/screenshots/customer_dashboard.png?raw=true)
 ---
+### Presentation
+[VEHICLE.pptx](https://github.com/akj0712/Vehicle-Management-System/files/9691767/VEHICLE.pptx)
+---
 ## FUNCTIONS
 ## Customer
 - customer will signup and login into system
